@@ -1,0 +1,10 @@
+.title{
+    display: flex;
+    justify-items: center;
+}
+.space{
+    flex: 1;
+}
+.coin-text{
+    flex: 1;
+}

@@ -1,0 +1,67 @@
+.covidData {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center items horizontally */
+    width: 60%;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.title {
+    width: 100%;
+    text-align: center; /* Center text horizontally */
+}
+
+/* Input stylings */
+.covidData__form {
+    padding: 10px;
+    margin: 20px;
+}
+
+.covidData__input {
+    display: flex; /* Use flexbox for input */
+    flex-direction: column; /* Stack input and button vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.covidData__input input {
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.covidData__input button {
+    width: 80px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px rgb(71, 67, 67);
+    cursor: pointer;
+}
+
+/* Detail stylings */
+.covidData__country__info {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%; /* Full width to align properly */
+    height: auto;
+    padding-left: 10px;
+    margin-top: 20px;
+    padding: 2px;
+    text-shadow: 1px 1px 1px rgb(71, 67, 67);
+
+    text-align: center; /* Center text in the country info */
+}
+
+.dropDown{
+    height: 40px;
+    width: 100%;
+    border-color: #4A2FBD   ;
+}

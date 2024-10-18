@@ -1,0 +1,7 @@
+.weather {
+    max-width: 1080px;
+    flex: 1;
+    height: 10px;
+    background: none;
+    width: 60%;
+}
