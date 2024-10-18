@@ -34,8 +34,11 @@ export const Footer = () => {
             <Col size={12} sm={6} className="text-center text-sm-end">
               {/* Social media icons with event handlers */}
               <div className="social-icon">
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a onClick={handleL}><img src={navIcon1} alt="LinkedIn" /></a>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a onClick={handleF}><img src={navIcon2} alt="Facebook" /></a>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a onClick={handleG}><img src={navIcon3} alt="GitHub" /></a>
               </div>
               {/* Footer copyright notice */}

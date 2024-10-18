@@ -6,10 +6,6 @@ import navIcon3 from '../assets/img/Github (2).png';
 import { HashLink } from 'react-router-hash-link'; // Importing HashLink for smooth scrolling to specific sections
 import { Link } from 'react-router-dom'; // Importing Link for routing between pages
 
-import {
-    BrowserRouter as Router, Routes, Route, useNavigate // Importing router components and navigation hook from React Router
-} from "react-router-dom";
-
 export const NavBar = (loc) => {
     // State to track whether the page is scrolled
     const [scrolled, setScrolled] = useState(false);
@@ -82,10 +78,13 @@ export const NavBar = (loc) => {
                         {/* Social media icons */}
                         <div className="social-icon">
                             {/* LinkedIn icon */}
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                             <a onClick={handleL}><img src={navIcon1} alt="LinkedIn" /></a>
                             {/* Facebook icon */}
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                             <a onClick={handleF}><img src={navIcon2} alt="Facebook" /></a>
                             {/* GitHub icon */}
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                             <a onClick={handleG}><img src={navIcon3} alt="GitHub" /></a>
                         </div>
                         {/* WhatsApp button linking to the 'connect' section */}

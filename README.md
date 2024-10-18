@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+### Task Description Develop a website that allows users to:
+  Browse weather information for multiple cities.
+  Track and display live cryptocurrency prices.
+  Display a list of global COVID-19 statistics.
+  The website should fetch real-time data from public APIs and display it in a user-friendly manner.
+### Task Requirements
+  # Weather Information:
+    Create a section where users can view the current weather for multiple cities.
+    Fetch weather data from a public API (e.g., OpenWeatherMap).
+    Display each city's weather, including temperature, condition (e.g., sunny, cloudy), and humidity.
+  # Cryptocurrency Prices:
+    Create a section where users can track the live prices of various cryptocurrencies (e.g., Bitcoin, Ethereum).
+    Fetch the data from a public API (e.g., CoinGecko or CoinMarketCap).
+    Display each cryptocurrency's name, symbol, and current price in USD.
+  # COVID-19 Statistics:
+    Create a section where users can view global or country-specific COVID-19 stats.
+    Fetch real-time data from a public API (e.g., disease.sh or COVID19API).
+    Display key statistics like total cases, active cases, and total deaths.
+### Bonus & Optional
+  Weather Details Page: Implement a feature to allow users to click on a city and view more detailed weather information (e.g., 5-day forecast).✅
+  Cryptocurrency Conversion: Implement a feature that allows users to convert cryptocurrency prices between different fiat currencies (e.g., USD to EUR).✅
+  Data Visualization: Add charts or graphs to visualize the changes in cryptocurrency prices over time or display trends in COVID-19 cases.✅
+  Deployment Automation: Implement a script to automate the deployment of the website when committing changes to the main branch.✅
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Deployment link https://react-task-wine-six.vercel.app/
