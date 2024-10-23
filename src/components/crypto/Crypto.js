@@ -19,10 +19,10 @@ export const Crypto= () => {
             })
             .catch((error) => console.log(error));
     }, []);
-
+    
     const fetchRate = async () => {
         try {
-            const response = await fetch(`https://api.exchangeratesapi.io/v1/latest?access_key=7aa42ecd7b9ef84e368a9d99e450466e&symbols=USD,${currency}`);
+            const response = await fetch(`https://api.exchangeratesapi.io/v1/latest?access_key=0d37a21b26adfa045d02ca09801d6a4e&symbols=USD,${currency}`);
             // const response = await axios.get(`https://api.currencylayer.com/live?access_key=&currencies=${currency}`);
             const result = await response.json(); // Log the entire response to understand the structure
             const rates = result.rates;
