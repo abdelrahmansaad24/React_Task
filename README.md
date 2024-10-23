@@ -23,3 +23,6 @@
   Deployment Automation: Implement a script to automate the deployment of the website when committing changes to the main branch.✅
 
 ### Deployment link https://react-task-wine-six.vercel.app/
+
+### free api expired so i updated it with new one 
+![image](https://github.com/user-attachments/assets/77c9cd6a-f941-4b6c-91b5-089d2c3c0fcc)
